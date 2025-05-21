@@ -23,7 +23,7 @@ const greeting = {
   username: "Akash Gubba",
   title: "Hi all, I'm Akash",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web  with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
+    "Aspiring Full Stack & AI Developer with hands-on experience building scalable web apps using React, Redux, Django, and GraphQL. Skilled in deploying cloud-native solutions with Azure & AWS. Passionate about integrating AI into real-world products, with experience in LLMs, LangChain, and building intelligent tools like LinkedIn data extractors and chatbots."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1qdAyj7wFqgFulZbKF2L7B00FLSEKFyBI/view?usp=drive_link", // Set to empty to hide the button
@@ -132,18 +132,22 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Hexagon Capability Center India (HCCI)",
-      companylogo: require("./assets/images/hexagonlogo.png"), // Make sure to add this logo in your assets/images folder
+      companylogo: require("./assets/images/hexagonlogo.png"),
       date: "July 2024 – April 2025",
-      desc: "Worked on full-stack development projects and contributed to real-world AI solutions across web platforms.",
+      desc: "Contributed to multiple full-stack enterprise-level projects, handling scalable frontend migrations, backend API design, DevOps deployment, and cloud authentication solutions. Worked in a fast-paced agile environment, collaborating with cross-functional teams to deliver impactful AI-powered web features.",
       descBullets: [
-        "Converted Angular frontend to React, boosting performance and maintainability",
-        "Integrated GraphQL APIs and developed real-time JSON data viewers using React + Redux",
-        "Set up CI/CD pipelines with AWS Amplify and implemented secure auth using AWS Cognito",
-        "Built chatbot feedback form and deployed React app on Azure Web App with DevOps pipelines"
+        " Migrated the legacy Angular frontend to React with improved routing, component modularity, and performance, resulting in ~30% faster load times.",
+        " Built and integrated dynamic UIs using React + Redux Toolkit + Shadcn UI for key features like feedback collection in chatbot interface.",
+        " Integrated GraphQL APIs to dynamically fetch and render backend data, with real-time JSON comparison viewer for input-output validation.",
+        " Implemented secure, role-based user authentication using AWS Cognito with JWT support, improving platform access management.",
+        " Set up automated CI/CD pipelines using AWS Amplify & Azure DevOps for seamless development-to-deployment flow.",
+        " Developed and consumed RESTful APIs in Python (Django), enabling key front-end functionalities and real-time validations.",
+        " Deployed final web app to Azure Web App, using Azure DevOps for version control and efficient collaborative workflows."
       ]
     }
   ]
 };
+
 
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -202,60 +206,78 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, and Some Cool Stuff I’ve Done!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Software Engineer Intern @ Hexagon (HCCI)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Interned at Hexagon Capability Center India. Migrated Angular frontend to React, built and consumed Django APIs, deployed using Azure Web Apps, and contributed to full-stack development.",
+      image: require("./assets/images/hexagonlogo.png"),
+      imageAlt: "Hexagon Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Hexagon Website",
+          url: "https://hexagon.com/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "300+ Problems Solved on LeetCode",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Strengthened data structures and algorithms by solving over 300 problems. Focused on optimizing solutions and improving time complexity.",
+      image: require("./assets/images/leetcode.png"),
+      imageAlt: "LeetCode Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "LeetCode Profile",
+          url: "https://leetcode.com/your_leetcode_username"
         }
       ]
     },
+    {
+      title: "2⭐ Coder on CodeChef",
+      subtitle:
+        "Achieved 2-star rating by participating in rated contests and solving algorithmic challenges.",
+      image: require("./assets/images/codechef.png"),
+      imageAlt: "CodeChef Logo",
+      footerLink: [
+        {
+          name: "CodeChef Profile",
+          url: "https://www.codechef.com/users/your_codechef_username"
+        }
+      ]
+    },
+    {
+      title: "Certification in Azure AI Fundamentals",
+      subtitle:
+        "Completed a certification course from Azure .Learned about AI concepts, Azure services, and ethical considerations.",
+      image: require("./assets/images/azure.png"),
+      imageAlt: "PWA Certification",
+      footerLink: [
+        {
+          name: "Azure Profile",
+          // url: "https://www.codechef.com/users/your_codechef_username"
+        }
+      ]
+    },
+    {
+      title: "Certification in Machine Learning & Deep Learning",
+      subtitle:
+        "Studied core concepts of ML and DL, including supervised learning, neural networks, and model evaluation techniques.",
+      image: require("./assets/images/nptel.png"),
+      imageAlt: "ML Logo",
+      footerLink: [
+        {
+          name: "NPTEL Profile",
+          url: "https://www.codechef.com/users/your_codechef_username"
+        }
+      ]
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
 
 // Blogs Section
